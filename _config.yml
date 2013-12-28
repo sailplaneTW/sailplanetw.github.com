@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", 'Gemfile', 'Gemfile.lock']
 pygments: true
 
 # Themes are encouraged to use these universal variables 
@@ -128,3 +128,12 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+
+mapping:
+  provider: google_js
+  api_key: AIzaSyAXjdx0jCS1f4bs4CY41CMOnRVatKi3gdM
+  zoom: 10
+  dimensions:
+    width: 600
+    height: 400
+
